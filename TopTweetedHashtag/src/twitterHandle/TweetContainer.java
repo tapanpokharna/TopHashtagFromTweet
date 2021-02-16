@@ -45,6 +45,7 @@ public class TweetContainer {
 	                return b.getValue().compareTo(a.getValue());
 	        }
 	    });
+	    //return the top n entries
 	    int i =0;
 	    for (Map.Entry<String, Integer> entry : entries) {
 	        ans.add(entry.getKey());
