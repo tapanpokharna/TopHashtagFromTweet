@@ -19,6 +19,8 @@ public class Utils {
 				tags.add(temp.substring(1,temp.length()));
 			}
 		}
+		
+		//return all tags in the input string
 		return tags;
 	}
 }
